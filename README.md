@@ -8,7 +8,7 @@ bootstraphy-orphan
 
 customized [Bootstrap](//github.com/twbs/bootstrap) for me.
 
-[Demo](//furplag.github.io/bootstraphy)
+[Demo](//furplag.github.io/bootstraphy-orphan)
 ------
 
 Author
