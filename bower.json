@@ -1,0 +1,42 @@
+{
+  "name": "bootstraphy-orphan",
+  "description": "Adding few features and components for Bootstrap.",
+  "version": "3.3.1",
+  "homepage": "https://github.com/furplag/bootstraphy",
+  "main": [
+    "dist/css/bootstraphy-orphan.css",
+    "dist/js/bootstraphy-orphan.js"
+  ],
+  "ignore": [
+    "**/.*",
+    "_config.yml",
+    "CNAME",
+    "bower_components",
+    "/components",
+    "composer.json",
+    "CONTRIBUTING.md",
+    "docs",
+    "node_modules",
+    "js/tests",
+    "test",
+    "tests",
+    "test-infra"
+  ],
+  "keywords": [
+    "bootstrap",
+    "css"
+  ],
+  "dependencies": {
+    "jquery": ">=1.9.1",
+    "bootstrap": ">=3.3.1"
+  },
+  "devDependencies": {
+    "jquery-1x": "jquery#^1",
+    "components-webfontloader": "~1.5.2",
+    "html5shiv": "~3.7.2",
+    "respond-minmax": "~1.4.2",
+    "modernizr": "~2.8.3",
+    "fullpage": "~2.4.9",
+    "pygments": "~2.0.1"
+  }
+}

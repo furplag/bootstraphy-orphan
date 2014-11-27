@@ -1,9 +1,9 @@
-bootstraphy
+bootstraphy-orphan
 ===========
-[![Latest release](http://img.shields.io/github/release/furplag/bootstraphy.svg)](https://github.com/furplag/bootstraphy/releases/latest)
-[![Build Status](https://travis-ci.org/furplag/bootstraphy.svg?branch=master)](https://travis-ci.org/furplag/bootstraphy)
-[![Dependency Status](https://david-dm.org/furplag/bootstraphy.svg?theme=shields.io)](https://david-dm.org/furplag/bootstraphy)
-[![devDependency Status](https://david-dm.org/furplag/bootstraphy/dev-status.svg?theme=shields.io)](https://david-dm.org/furplag/bootstraphy#info=devDependencies)
+[![Latest release](http://img.shields.io/github/release/furplag/bootstraphy-orphan.svg)](https://github.com/furplag/bootstraphy-orphan/releases/latest)
+[![Build Status](https://travis-ci.org/furplag/bootstraphy-orphan.svg?branch=master)](https://travis-ci.org/furplag/bootstraphy-orphan)
+[![Dependency Status](https://david-dm.org/furplag/bootstraphy-orphan.svg?theme=shields.io)](https://david-dm.org/furplag/bootstraphy-orphan)
+[![devDependency Status](https://david-dm.org/furplag/bootstraphy-orphan/dev-status.svg?theme=shields.io)](https://david-dm.org/furplag/bootstraphy-orphan#info=devDependencies)
 [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE)
 
 customized [Bootstrap](//github.com/twbs/bootstrap) for me.

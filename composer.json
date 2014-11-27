@@ -1,0 +1,22 @@
+{
+  "name": "furplag/bootstraphy-orphan",
+  "description": "Adding few features and components for Bootstrap.",
+  "homepage": "https://github.com/furplag/bootstraphy/",
+  "authors": [
+    {
+      "name": "furplag",
+      "email": "furplag@gmail.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/furplag/bootstraphy/issues"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "3.3.x-dev"
+    }
+  },
+  "replace": {
+    "furplag/bootstraphy-orphan": "self.version"
+  }
+}

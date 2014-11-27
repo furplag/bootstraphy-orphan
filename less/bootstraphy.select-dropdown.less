@@ -1,0 +1,22 @@
+//
+// Bootstraphy.select-dropdown
+// --------------------------------------------------
+.select-dropdown {
+//  display: none;
+    position: absolute;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    .opacity-force(0);
+}
+.dropdown-toggle > .dropdown-label {
+  margin-right: floor((@padding-base-horizontal / 2));
+}
+.dropdown-menu {
+  &.default {.dropdown-menu-variant(@text-color; @text-color; @text-color; lighten(@text-color, 35%); #fff; @text-color);}
+  &.primary {.dropdown-menu-variant(@brand-primary; @brand-primary; @brand-primary; lighten(@brand-primary, 35%); #fff; @brand-primary);}
+  &.success {.dropdown-menu-variant(@brand-success; @brand-success; @brand-success; lighten(@brand-success, 35%); #fff; @brand-success);}
+  &.info {.dropdown-menu-variant(@brand-info; @brand-info; @brand-info; lighten(@brand-info, 35%); #fff; @brand-info);}
+  &.warning {.dropdown-menu-variant(@brand-warning; @brand-warning; @brand-warning; lighten(@brand-warning, 35%); #fff; @brand-warning);}
+  &.danger{.dropdown-menu-variant(@brand-danger; @brand-danger; @brand-danger; lighten(@brand-danger, 35%); #fff; @brand-danger);}
+}

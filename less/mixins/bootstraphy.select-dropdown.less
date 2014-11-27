@@ -1,0 +1,25 @@
+.dropdown-menu-variant(@border; @link-color; @link-hover-color; @link-hover-bg; @link-active-color; @link-active-bg) {
+  border-color: @border;
+  .divider {
+    .nav-divider(@border);
+  }
+  > li > a {
+    color: @link-color;
+    &:hover,
+    &:focus {
+      text-decoration: none;
+      color: @link-hover-color;
+      background-color: @link-hover-bg;
+    }
+  }
+  > .active > a {
+    &,
+    &:hover,
+    &:focus {
+      color: @link-active-color;
+      text-decoration: none;
+      outline: 0;
+      background-color: @link-active-bg;
+    }
+  }
+}

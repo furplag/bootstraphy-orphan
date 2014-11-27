@@ -1,0 +1,31 @@
+//
+// Bootstraphy.fileinput
+// --------------------------------------------------
+
+.btn-fileinput {
+  input[type="file"] {
+//    display: none;
+    position: absolute;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    .opacity(0);
+    &,
+    :focus {
+      outline: none !important;
+    }
+  }
+  span.remover {
+    display: none;
+  }
+  &.removable {
+    span.remover {
+      z-index: 2;
+      display: inline-block;
+      padding-left: @padding-base-horizontal;
+      color: inherit;
+      cursor: pointer;
+      &:hover {color: inherit;}
+    }
+  }
+}
