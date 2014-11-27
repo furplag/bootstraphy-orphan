@@ -1,0 +1,13 @@
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+pygments: true
+baseurl: /bootstraphy-orphan
+encoding: UTF-8
+
+name: Bootstraphy
+author: furplag
+author_url: https://about.me/furplag
+current_version: 3.3.1
+
+repo: https://github.com/furplag/bootstraphy-orphan

@@ -43,6 +43,3 @@ bower_components
 node_modules
 build
 /components
-/docs
-less/docs
-_config.yml
