@@ -1,0 +1,33 @@
+<!--[if lt IE 9]> <script src="{{ "/libs/js/jquery-1x/jquery.min.js" | prepend: site.baseurl }}"></script> <![endif]-->
+<!--[if gt IE 8]><!-->
+<script src="{{ " /libs/js/jquery.min.js" | prepend:site.baseurl }}"></script>
+<!--<![endif]-->
+<script src="{{ " /libs/js/bootstrap.min.js" | prepend:site.baseurl }}"></script>
+<script src="{{ " /dist/js/bootstraphy.min.js" | prepend:site.baseurl }}"></script>
+<script src="{{ " /assets/js/docs.min.js" | prepend:site.baseurl }}"></script>
+{% if page.fullPage %}
+<script src="{{ " /libs/js/jquery.easings.min.js" | prepend:site.baseurl }}"></script>
+<script src="{{ " /libs/js/jquery.slimscroll.min.js" | prepend:site.baseurl }}"></script>
+<script src="{{ " /libs/js/fullPage.min.js" | prepend:site.baseurl }}"></script>
+<script>
+  $(function() {
+    $('header nav ul:first-child').prop('id', 'fullpage-nav')
+    $('#content').fullpage({
+      anchors:['bootstraphy', 'checkbox', 'radio', 'file-input', 'select-dropdown'],
+      css3: true,
+      loopHorizontal: false,
+      menu: '#fullpage-nav',
+      navigation: true,
+      navigationPosition: 'right',
+      paddingBottom: '0',
+      paddingTop: '50px',
+      resize: false,
+      scrollOverflow: true,
+      sectionsColor: ['#348bac', '#7db500', '#00a1cb', '#f18d05', '#7db500', '#00a1cb', '#f18d05', '#7db500', '#00a1cb', '#f18d05'],
+      slidesNavigation: true,
+      slidesNavPosition: 'bottom',
+      verticalCentered: true
+    })
+  })
+</script>
+{% endif %}

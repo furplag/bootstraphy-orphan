@@ -1,0 +1,46 @@
+<form>
+  <div class="row">
+    <div class="col-xs-10 col-xs-offset-1">
+      <h2 class="page-header">.btn-fileinput</h2>
+      <div style="margin-bottom: 5px;">
+        <select class="form-control select-dropdown">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+        <select class="form-control select-dropdown" multiple>
+          <option>select</option>
+          <option>[multiple]</option>
+          <option>supported</option>
+        </select>
+        <select class="form-control select-dropdown" multiple data-options-max="3" data-label-default="pick 3 items">
+          <option>select</option>
+          <option>[multiple]</option>
+          <option>has</option>
+          <option>some</option>
+          <option>attributes</option>
+        </select>
+      </div>
+      <div class="hidden-xs">
+{% highlight html %}
+<select class="form-control select-dropdown">
+  <option>1</option>
+  ...
+</select>
+
+<select class="form-control select-dropdown" multiple>
+  <option>select</option>
+  ...
+</select>
+
+<select class="form-control select-dropdown" multiple data-options-max="3" data-label-default="pick 3 items">
+  <option>select</option>
+  ...
+</select>
+{% endhighlight %}
+      </div>
+    </div>
+  </div>
+</form>

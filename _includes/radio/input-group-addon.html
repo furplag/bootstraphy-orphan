@@ -1,0 +1,65 @@
+<form>
+  <div class="row">
+    <div class="col-xs-10 col-xs-offset-1">
+      <h2 class="page-header">within .input-group</h2>
+      <div class="input-group" style="margin-bottom: 5px;">
+        <span class="input-group-addon">
+          <input type="radio" name="" class="flat">
+        </span>
+        <input type="text" class="form-control" placeholder=".flat">
+      </div>
+      <div class="hidden-xs">
+{% highlight html %}
+<div class="input-group">
+  <span class="input-group-addon">
+    <input type="radio" name="" class="flat">
+  </span>
+  <input type="text" class="form-control" placeholder=".flat">
+</div>
+{% endhighlight %}
+      </div>
+      <h2 class="page-header">Sizing</h2>
+      <div class="input-group input-group-lg" style="margin-bottom: 5px;">
+        <span class="input-group-addon">
+          <input type="radio" name="radio-input-group-addon-sizing" class="flat">
+        </span>
+        <input type="text" class="form-control" placeholder="Large Input">
+      </div>
+      <div class="input-group" style="margin-bottom: 5px;">
+        <span class="input-group-addon">
+          <input type="radio" name="radio-input-group-addon-sizing" class="flat">
+        </span>
+        <input type="text" class="form-control" placeholder="Default">
+      </div>
+      <div class="input-group input-group-sm" style="margin-bottom: 5px;">
+        <span class="input-group-addon">
+          <input type="radio" name="radio-input-group-addon-sizing" class="flat">
+        </span>
+        <input type="text" class="form-control" placeholder="Small Input">
+      </div>
+      <div class="hidden-xs">
+{% highlight html %}
+<div class="input-group input-group-lg">
+  <span class="input-group-addon">
+    <input type="radio" name="" class="flat">
+  </span>
+  <input type="text" class="form-control" placeholder="Large Input">
+</div>
+<div class="input-group">
+  <span class="input-group-addon">
+    <input type="radio" name="" class="flat">
+  </span>
+  <input type="text" class="form-control" placeholder="Default">
+</div>
+<div class="input-group input-group-sm">
+  <span class="input-group-addon">
+    <input type="radio" name="" class="flat">
+  </span>
+  <input type="text" class="form-control" placeholder="Small Input">
+</div>
+{% endhighlight %}
+      </div>
+    </div>
+    <!-- end .col -->
+  </div>
+</form>

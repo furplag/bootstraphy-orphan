@@ -1,0 +1,70 @@
+---
+layout: default
+slug: home
+fullPage: true
+---
+
+<main id="content" role="main">
+  <div class="section">
+    <h1 class="heading">{{site.name}}</h1>
+    <p class="lead">Sometimes smart, and sometimes ugly.</p>
+    <a class="btn btn-lg btn-success" href="{{site.repo}}">View on GitHub</a><small></small>
+  </div>
+  <div class="section">
+    <div class="slide">
+      <h1 class="heading">Checkbox</h1>
+    </div>
+    <div class="slide container text-left">
+{% include checkbox/flat-examples.html %}
+    </div>
+    <div class="slide container text-left">
+{% include checkbox/switch-examples.html %}
+    </div>
+    <div class="slide container text-left">
+{% include checkbox/input-group-addon.html %}
+    </div>
+  </div>
+  <div class="section">
+    <div class="slide">
+      <h1 class="heading">Radio</h1>
+    </div>
+    <div class="slide container text-left">
+{% include radio/flat-examples.html %}
+    </div>
+    <div class="slide container text-left">
+{% include radio/input-group-addon.html %}
+    </div>
+  </div>
+  <div class="section">
+    <div class="slide">
+      <h1 class="heading">File Input</h1>
+      <p>Use <code>input[type="file"]</code> with <code>.btn-fileinput</code>.</p>
+    </div>
+    <div class="slide container text-left">
+{% include fileinput/basic-examples.html %}
+    </div>
+    <div class="slide container text-left">
+{% include fileinput/options.html %}
+    </div>
+    <div class="slide container text-left">
+{% include fileinput/sizing.html %}
+    </div>
+  </div>
+  <div class="section">
+    <div class="slide">
+      <h1 class="heading">Select-dropdown</h1>
+    </div>
+    <div class="slide container text-left">
+{% include select-dropdown/basic-examples.html %}
+    </div>
+    <div class="slide container text-left">
+{% include select-dropdown/options.html %}
+    </div>
+    <div class="slide container text-left">
+{% include select-dropdown/sizing.html %}
+    </div>
+    <div class="slide container text-left">
+{% include select-dropdown/disabled-state.html %}
+    </div>
+  </div>
+</main>

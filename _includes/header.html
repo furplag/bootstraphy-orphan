@@ -1,0 +1,35 @@
+<header class="navbar navbar-fixed-top" id="top" role="banner">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        {% if page.slug == "home" %}
+        <li data-menuanchor="bootstraphy" class="active"><a href="#bootstraphy">Bootstraphy</a></li>
+        <li data-menuanchor="checkbox"><a href="#checkbox">Checkbox</a></li>
+        <li data-menuanchor="radio"><a href="#radio">Radio</a></li>
+        <li data-menuanchor="file-input"><a href="#file-input">File Input</a></li>
+        <li data-menuanchor="select-dropdown"><a href="#select-dropdown">Select-dropdown</a></li>
+        {% else %}
+        <li{% if page.slug == "getting-started" %} class="active"{% endif %}>
+          <a href="../getting-started/">Getting started</a>
+        </li>
+        <li{% if page.slug == "css" %} class="active"{% endif %}>
+          <a href="../css/">CSS</a>
+        </li>
+        <li{% if page.slug == "components" %} class="active"{% endif %}>
+          <a href="../components/">Components</a>
+        </li>
+        {% endif %}
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="http://getbootstrap.com" target="_blank">Bootstrap</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
