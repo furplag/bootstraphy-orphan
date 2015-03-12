@@ -244,16 +244,15 @@
   .checkbox-inline.flat input[type="checkbox"] + span {
     position: absolute;
     top: 4px;
-    left: auto;
+    left: 0;
     width: 12px;
     height: 12px;
-    margin-left: -20px;
     content: ' ';
-    background-color: #fff;
+    background-color: #0f0;
     border: 2px solid #333;
-    -webkit-transition: border-width .125s linear, border-color .125s linear;
-         -o-transition: border-width .125s linear, border-color .125s linear;
-            transition: border-width .125s linear, border-color .125s linear;
+    -webkit-transition: border-width .125s linear 0, border-color .125s linear 0;
+         -o-transition: border-width .125s linear 0, border-color .125s linear 0;
+            transition: border-width .125s linear 0, border-color .125s linear 0;
   }
   .radio.flat input[type="radio"] + span:hover,
   .checkbox.flat input[type="radio"] + span:hover,
@@ -408,7 +407,7 @@
   .checkbox.flat input[type="radio"] + span,
   .radio-inline.flat input[type="radio"] + span,
   .checkbox-inline.flat input[type="radio"] + span {
-    border-radius: 50%;
+    border-radius: 12px;
   }
   .radio.flat.disabled input[type="radio"] + span,
   .checkbox.flat.disabled input[type="radio"] + span,
