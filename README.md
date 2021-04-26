@@ -1,5 +1,6 @@
 bootstraphy-orphan
 ===========
+[![deprecated](https://img.shields.io/badge/deprecated-youthful%20inexperience-red.svg)](https://img.shields.io/badge/deprecated-youthful%20inexperience-red.svg)
 [![Latest release](http://img.shields.io/github/release/furplag/bootstraphy-orphan.svg)](https://github.com/furplag/bootstraphy-orphan/releases/latest)
 [![Build Status](https://travis-ci.org/furplag/bootstraphy-orphan.svg?branch=master)](https://travis-ci.org/furplag/bootstraphy-orphan)
 [![Dependency Status](https://david-dm.org/furplag/bootstraphy-orphan.svg?theme=shields.io)](https://david-dm.org/furplag/bootstraphy-orphan)
